@@ -1,0 +1,23 @@
+doctype html 
+html 
+    head 
+        title Piyush D-Club
+        block scripts 
+        block style
+              
+    body 
+        //block is keyword which is used to add something
+        nav#navbar 
+            ul
+                #logo 
+                    img(src="/public/img/dn3.jpg", alt="")
+                    | Piyush's D-Club
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us]
+        
+        block content       
+        footer#footer 
+            | Copyright © 2022 www.PiyushDclub.com | All Rights Reserved!

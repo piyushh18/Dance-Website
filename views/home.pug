@@ -1,0 +1,47 @@
+extends base.pug 
+
+block scripts
+  script(src='/public/index.js')
+
+block style 
+    style 
+        include  ../public/style.css
+block content 
+    section#introsection
+        h1 Welcome to the Piyush's Dance-Club
+        h3 Eat Dance Sleep Repeat
+    section#missionsection
+        h2 Fitness Services
+        .card 
+            h4 Dance perfection
+            .card-box
+                .card-img 
+                    img(src="/public/img/dn6.jpg", alt="") 
+            
+                .card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum soluta qui asperiores laboriosam voluptatem nobis harum sed vero illo.
+        .card 
+            h4 Reduce BellyFat
+            .card-box
+                .card-img 
+                    img(src="/public/img/dn4.jpg", alt="") 
+                
+                .card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum soluta qui asperiores laboriosam voluptatem nobis harum sed vero illo.
+        .card 
+            h4 Expert-Teaching
+            .card-box
+                .card-img 
+                    img(src="/public/img/dn5.jpg", alt="") 
+                
+                .card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum soluta qui asperiores laboriosam voluptatem nobis harum sed vero illo.
+            
+    section#sponsersection
+        h2 Our Sponsers
+        #sponser
+        img(src="/public/img/sp1.jpg", alt="sponser not loaded" ,Class= "spimage" ,id="sp1")
+        img(src="/public/img/sp2.png", alt="sponser not loaded" ,Class= "spimage")
+        img(src="/public/img/sp3.jpg", alt="sponser not loaded" ,Class= "spimage")
+        img(src="/public/img/sp4.jpg", alt="sponser not loaded" ,Class= "spimage")
+        

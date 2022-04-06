@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+body{
+    
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+
+#navbar{
+    background-color: rgba(27, 23, 23, 0.986); 
+    padding: 5px 10px;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+#logo img{
+    width: 60px;
+    height: 50px;
+    filter: invert(1);
+    margin: 1px auto;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    padding: 1px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: bold;
+    
+}
+#navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(253, 197, 197);
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+#introsection{
+    height: 400px;
+    color: rgb(194, 228, 109);
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'ZCOOL QingKe HuangYou';
+    opacity: 0.85;
+    background: url('../public/hulki-okan-tabak-WevJJ3GxfnI-unsplash.jpg') center/cover no-repeat;
+    padding-top: 70px;
+    
+}
+
+h3{
+    padding:19px 1px;
+    font-size: 2.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+#missionsection{
+    height: 420px;
+    text-align: center;
+    background-color: rgb(70, 77, 69);    
+}
+.card{
+    border: 3px solid rgb(7, 5, 5);
+    border-radius: 20px;
+    height: 300px;
+    margin:0px 16px;
+    width: 31%;
+    display: inline-block;
+    background-color: rgb(105, 121, 90);
+}
+#missionsection h4{
+    text-align: center;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.3rem;
+
+}
+
+
+
+
+
+
+
+
+#sponsersection{
+    height: 330px;
+    background-color: rgb(56, 61, 57);
+    text-align: center;
+    
+}
+
+h2{
+    margin: 0px auto;
+    padding: 18px 1px;
+    font-size: 2.5rem;
+    color: rgb(194, 228, 109);
+}
+
+#sponser{
+    margin: 20px auto;
+}
+.spimage{
+    margin: 10px 44px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 2ch;
+    
+}
+#sp1{
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 2ch;
+
+}
+
+
+
+
+#footer{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: aliceblue;
+    padding-top: 8px;
+    font-size: 22px;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "pug": "^3.0.2"
+  },
+  "name": "piyush-dance-academy",
+  "version": "1.0.0",
+  "description": "helps to reduce belly fat",
+  "main": "app2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "piyush",
+  "license": "ISC"
+}
